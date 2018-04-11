@@ -68,3 +68,9 @@ function showAge(birthYear) {
 showAge(1964);
 showAge(1988);
 
+function calcAge(birthYear) {
+    return 2018 - birthYear;
+}
+console.log("Du bist ", calcAge(1990), "Jahre");
+console.log("und du ", calcAge(1994), ".");
+
